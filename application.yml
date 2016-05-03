@@ -20,6 +20,9 @@ eureka:
 security:
   basic:
     enabled: false
+endpoints:
+  shutdown:
+    enabled: true
 ---
 spring:
   profiles: lattice
